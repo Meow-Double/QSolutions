@@ -14,3 +14,6 @@
 [Инструкцию "Функция GitHub Pages"](https://figmatohtml.notion.site/GitHub-Pages-6266e77074274a728ace3bb60b355986)
 
 [Правила](https://figmatohtml.notion.site/7d3e52a516734f99935b08c56d3d7d50)
+
+
+https://github.com/MaketForFigma/Template.git

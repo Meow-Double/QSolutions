@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
+     <!-- Начало: Данный блок удалять нельзя -->
+    <!-- <div class="maketforfigma">
         <a href="https://t.me/s/FigmaToHTML" target="_blank">
             <img src="img/logo.png">
         </a>
@@ -21,12 +22,672 @@
                 При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
             </p>
         </div>
-    </div>
-    <!-- Конец -->
+    </div> -->
+    <!-- Конец -->   
+    
 
     <div class="main">
-        В данном блоке размещается верстка
-    </div>
+        <header class="header" >
+          
+                <div class="header__scroll">
+                    <a href="#steps" class="header__scroll-item">
+                        <div class="header__scroll-layer">
+                            <img src="./img/header/scroll-arrow.svg" alt="" class="header__scroll-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="header__section" style="background-image: url(./img/header/header-bg.jpg);">
+              <div class="container">        
+                 <nav class="navbar">
+                    <a href="#!" class="navbar__logo-link">
+                        <img src="./img/logo.svg" alt="logo" class="navbar__logo-img">
+                    </a>
+                    <div class="navbar__menu">
+                        <a href="#!" class="navbar__menu-login navbar__menu-btn">Регистрация</a>
+                        <a href="#!" class="navbar__menu-registration navbar__menu-btn">Вход</a>
+                    </div>
+                </nav>  
+                 <div class="header__inner">
+                    <div class="header__content">
+                       <h1 class="header__title title">Первая интеллектуальная платформа для подготовки к тестам <span class="title--name">Talent Q</span></h1>
+                    <div class="header__subtitle">от эксперта Антона Добрышина</div>
+                    
+                    </div>
+                    <div class="header__decor">
+                        <img src="./img/header/decor-img.png" alt="" class="header__decor-img">
+                    </div>
+                    <div class="header__buttons">
+                        <div class="header__btn-item">
+                            <button class="header__btn header__btn--first">
+                                <span class=".header__btn-text">Начать сейчас</span>
+                                <svg class="header__btn-ico" width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="header__btn-ico" d="M16.174 8.46095C16.8979 8.87889 16.8979 9.92374 16.174 10.3417L2.32952 18.3348C1.60563 18.7527 0.700767 18.2303 0.700767 17.3944L0.700767 1.40821C0.700767 0.572333 1.60563 0.0499098 2.32953 0.46785L16.174 8.46095Z" fill="white"/>
+                                    </svg>
+                                    
+                            </button>
+                            <div class="header__btn-title">Время - деньги</div>
+                        </div>
+                        <div class="header__btn-item header__btn-item--second">
+                            <button class="header__btn header__btn--second">
+                                <span class=".header__btn-text">Подробнее</span>
+                                <img class="header__btn-ico" src="./img/header/header-btn-arrow.svg" alt="">
+                            </button>
+                            <div class="header__btn-title">Формула успеха</div>
+                        </div>
+                    </div> 
+                </div>
+                
+                </div>
+                
+            </div>
+        </header>
+        <main class="main">
+            <section class="steps" id="steps">
+                <img src="./img/steps/bg-item-1.png" alt="" class="steps__bg-item steps__bg-item--cube-first">
+                <img src="./img/steps/bg-item-2.png" alt="" class="steps__bg-item steps__bg-item--cube-second">
+                <div class="container">
+                    <div class="steps__inner">
+                        <h2 class="steps__title"><span class="title--name steps__title--name">Talent Q:</span><span class="steps__title-text"> 6 шагов к успеху</span></h2>
+                        <div class="steps__content">
+                            <h3 class="steps__content-title subtitle">Изучите видеоуроки
+                            </h3>
+                            <div class="steps__content-box">
+                                <div class="steps__content-video">
+                                    <div class="steps__content-video-layer">
+                                        <img src="./img/steps/video-img.jpg" alt="" class="steps__content-video-img">
+                                        <img src="./img/steps/video-play.png" alt="" class="steps__content-video-item steps__content-video-play">
+                                        <div class="steps__content-video-item steps__content-video-text">Смотреть видеоуроки</div>
+                                        <div class="steps__content-video-item steps__content-video-line"></div>
+                                        <img src="./img/steps/circle.svg" alt="" class="steps__content-video-item steps__content-video-circle steps__content-video-circle--first">
+                                        <img src="./img/steps/circle.svg" alt="" class="steps__content-video-item steps__content-video-circle steps__content-video-circle--second">
+                                        <img src="./img/steps/message-1.png" alt="" class="steps__content-video-item steps__content-video-message steps__content-video-message--first">
+                                        <img src="./img/steps/message-2.png" alt="" class="steps__content-video-item steps__content-video-message steps__content-video-message--second">
+                                         <img src="./img/steps/arrow-left.svg" alt="" class="steps__content-video-item steps__content-video-arrow--left steps__content-video-menu">
+                                        <img src="./img/steps/menu-play.svg" alt="" class="steps__content-video-item steps__content-video-menu-play steps__content-video-menu"> 
+                                        <img src="./img/steps/arrow-right.svg" alt="" class="steps__content-video-item steps__content-video-arrow--right steps__content-video-menu">
+                                        <img src="./img/steps/sound.svg" alt="" class="steps__content-video-item steps__content-video-sound steps__content-video-menu">
+                                        <div class="steps__content-video-item steps__content-video-time steps__content-video-menu">0:00 / 16:44</div>
+                                        <img src="./img/steps/window.svg" alt="" class="steps__content-video-item steps__content-video-window steps__content-video-menu">      
+                                    </div>
+                                    <div class="steps__content-video-info">
+                                        <img src="./img/steps/video-info-ico.png" alt="" class="steps__content-video-info-img">
+                                        <div class="steps__content-video-info-text">Удобно смотреть в любого устройства</div>
+                                    </div>
+                                </div>
+                                <div class="steps__content-info">
+                                    <div class="steps__bg-item steps__bg-item--number">01</div>
+                                    <div class="steps__info-item">
+                                        <div class="steps__item-video">
+                                            <img src="./img/steps/info-video-img.jpg" alt="" class="steps__item-video-img">
+                                            <img src="./img/steps/info-play.svg" alt="" class="steps__item-video-play">
+                                            <div class="steps__item-hours">
+                                                <div class="steps__item-hours-text">07:51</div>
+                                            </div>
+                                        </div>
+                                        <div class="steps__item-text">Как успевать 
+                                            в отведенное время?</div>
+                                    </div>
+                                    <div class="steps__info-item">
+                                        <div class="steps__item-video">
+                                            <img src="./img/steps/info-video-img.jpg" alt="" class="steps__item-video-img">
+                                            <img src="./img/steps/info-play.svg" alt="" class="steps__item-video-play">
+                                            <div class="steps__item-hours">
+                                                <div class="steps__item-hours-text">07:51</div>
+                                            </div>
+                                        </div>
+                                        <div class="steps__item-text">Как успевать 
+                                            в отведенное время?</div>
+                                    </div>
+                                    <div class="steps__info-item">
+                                        <div class="steps__item-video">
+                                            <img src="./img/steps/info-video-img.jpg" alt="" class="steps__item-video-img">
+                                            <img src="./img/steps/info-play.svg" alt="" class="steps__item-video-play">
+                                            <div class="steps__item-hours">
+                                                <div class="steps__item-hours-text">07:51</div>
+                                            </div>
+                                        </div>
+                                        <div class="steps__item-text">Как успевать 
+                                            в отведенное время?</div>
+                                    </div>     
 
+                                    <div class="steps__info-item steps__info-item--info">
+                                        <div class="steps__info-img">
+                                          <svg class="steps__item-ico" width="48" height="55" viewBox="0 0 48 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M44.3571 21.5223L26.2721 3.43733C24.4025 1.56766 21.3601 1.56755 19.4903 3.43733C17.8095 5.11801 17.6648 7.6813 18.906 9.51164L18.8808 9.63753C17.5769 16.1574 14.4026 22.0888 9.70085 26.7905L1.40573 35.0856C-0.468418 36.9598 -0.468738 39.9931 1.40573 41.8674L5.92685 46.3885C7.8009 48.2626 10.8344 48.2627 12.7086 46.3885L13.839 45.2581L21.7511 53.1703C23.6252 55.0445 26.6585 55.0446 28.5328 53.1703C30.4025 51.3006 30.4025 48.2583 28.5328 46.3886L25.1419 42.9977L26.2722 41.8674C28.1463 39.9933 28.1466 36.96 26.2722 35.0857L25.5041 34.3175C29.2828 31.6719 33.5742 29.83 38.157 28.9134L38.2845 28.8879C40.1555 30.1512 42.7129 29.9481 44.3571 28.3039H44.3572C46.2267 26.4343 46.2267 23.3921 44.3571 21.5223ZM10.4481 44.1279C9.82343 44.7525 8.81206 44.7526 8.18741 44.1278L3.66629 39.6067C3.04154 38.9818 3.04154 37.9709 3.66629 37.3461L11.5783 29.434L18.3601 36.2158C17.586 36.9899 11.2412 43.3346 10.4481 44.1279ZM26.2721 48.649C26.8952 49.2722 26.8952 50.2863 26.2721 50.9096C25.6489 51.5327 24.6347 51.5327 24.0115 50.9096L16.0994 42.9975L18.3601 40.7369L26.2721 48.649ZM20.6206 38.4764C21.1012 37.9958 21.8205 37.2598 22.9557 36.2902L24.0115 37.3461C24.6363 37.9709 24.6363 38.9818 24.0115 39.6067L22.8812 40.737L20.6206 38.4764ZM20.6885 34.0232L13.7707 27.1055C17.478 22.8247 20.1329 17.7716 21.5532 12.2819L35.5121 26.2408C30.0224 27.661 24.9694 30.3159 20.6885 34.0232ZM42.0962 26.0432C41.4715 26.6679 40.4604 26.6679 39.8357 26.0432L21.7509 7.95845C21.1261 7.33359 21.1261 6.32264 21.7509 5.69789C22.3756 5.07314 23.3868 5.07314 24.0115 5.69789L42.0962 23.7826C42.7194 24.4058 42.7194 25.4199 42.0962 26.0432Z" fill="#FC6652"/>
+                                            <path d="M12.7072 35.0877C12.0831 34.4635 11.0709 34.4635 10.4467 35.0877L8.18609 37.3482C7.56187 37.9725 7.56187 38.9846 8.18609 39.6088C8.8102 40.233 9.82254 40.233 10.4467 39.6088L12.7072 37.3482C13.3314 36.724 13.3314 35.7119 12.7072 35.0877Z" fill="#FC6652"/>
+                                            <path class="steps__item-ico-line" d="M33.6127 0C32.7298 0 32.0142 0.715678 32.0142 1.5985V4.79549C32.0142 5.67831 32.7298 6.39399 33.6127 6.39399C34.4955 6.39399 35.2112 5.67831 35.2112 4.79549V1.5985C35.2112 0.715678 34.4955 0 33.6127 0Z" fill="#FC6652"/>
+                                            <path class="steps__item-ico-line" d="M46.4026 12.7869H43.2056C42.3228 12.7869 41.6071 13.5025 41.6071 14.3854C41.6071 15.2682 42.3228 15.9839 43.2056 15.9839H46.4026C47.2854 15.9839 48.0011 15.2682 48.0011 14.3854C48.0011 13.5025 47.2853 12.7869 46.4026 12.7869Z" fill="#FC6652"/>
+                                            <path class="steps__item-ico-line" d="M44.3374 3.66519C43.7133 3.04097 42.701 3.04097 42.0768 3.66519L38.8798 6.86218C38.2556 7.4864 38.2556 8.49852 38.8798 9.12274C39.5039 9.74696 40.5162 9.74707 41.1404 9.12274L44.3374 5.92575C44.9616 5.30153 44.9616 4.28951 44.3374 3.66519Z" fill="#FC6652"/>
+                                            </svg>     
+                                        </div>
+                                        
+                                        <div class="steps__info-text">Об этом и не только расскажет <span class="title--name">практикующий эксперт Антон Добрышин. </span> </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="tests">
+                <div class="container">
+                    <div class="tests__inner">
+                        <div class="tests__info">
+                            <div class="tests__info-row">
+                                <h3 class="tests__info-title subtitle">Тест вашего работадателя</h3>
+                                <a href="#!" class="tests__info-logo-link">
+                                    <img src="./img/tests/logo.svg" alt="" class="tests__info-logo-ico">
+                                </a>
+                            </div>
+                            <div class="tests__info-decor">
+                                <img src="./img/tests/info-decor.png" alt="" class="tests__info-decor-img">
+                                <svg class="tests__info-arrows" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="tests__info-arrow--left" d="M43.9091 10.4546H7.13884L14.0239 3.56939C14.8405 2.75296 14.8405 1.42899 14.0239 0.612426C13.2075 -0.204142 11.8835 -0.204142 11.067 0.612426L0.612426 11.067C-0.204142 11.8834 -0.204142 13.2073 0.612426 14.0239L11.067 24.4784C11.4752 24.8867 12.0104 25.0909 12.5455 25.0909C13.0806 25.0909 13.6158 24.8867 14.0239 24.4784C14.8405 23.662 14.8405 22.3381 14.0239 21.5215L7.13884 14.6364H43.9091C45.0638 14.6364 46 13.7002 46 12.5455C46 11.3908 45.0638 10.4546 43.9091 10.4546Z" fill="url(#paint0_linear_401_745)"/>
+                                    <path class="tests__info-arrow--right" d="M34.933 21.5215C34.1165 20.7051 32.7926 20.7051 31.976 21.5215C31.1594 22.3379 31.1594 23.6619 31.976 24.4785L38.8612 31.3637H2.09097C0.936229 31.3637 6.10352e-05 32.2998 6.10352e-05 33.4546C6.10352e-05 34.6093 0.936229 35.5455 2.09097 35.5455H38.8612L31.9761 42.4307C31.1596 43.2471 31.1596 44.5711 31.9761 45.3877C32.3843 45.7958 32.9194 46 33.4546 46C33.9897 46 34.5248 45.7958 34.933 45.3875L45.3875 34.933C46.2041 34.1166 46.2041 32.7926 45.3875 31.976L34.933 21.5215Z" fill="url(#paint1_linear_401_745)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_401_745" x1="-2.95314e-07" y1="13" x2="37" y2="13" gradientUnits="userSpaceOnUse">
+                                    <stop class="tests__info-decor-arrow--color" offset="1" stop-color="#FC6652"/>
+                                    <stop class="tests__info-decor-arrow--color" offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_401_745" x1="46" y1="34.5" x2="5.5" y2="34.5" gradientUnits="userSpaceOnUse">
+                                    <stop class="tests__info-decor-arrow--color" offset="1" stop-color="#FC6652"/>
+                                    <stop class="tests__info-decor-arrow--color" offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                <div class="tests__info-decor-rectangle"></div>
+                            </div>
+                        </div>
+                        <div class="tests__content">
+                            <div class="tests__bg-item tests__bg-item--number">02</div>
+                            <h3 class="tests__title">Попробуйте реальные тесты</h3>
+                            <div class="tests__text">Наши и реальные тесты идентичны по сложности, тематике и формату вопросов.</div>
+                        </div>
+                        <button class="tests__btn">
+                            <span class="tests__btn-text">Пройти тест </span>
+                            <svg class="tests__btn-ico" width="64" height="45" viewBox="0 0 64 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="tests__btn-ico--hover" cx="5.81931" cy="5.81931" r="5.81931" fill="white"/>
+                                <circle cx="5.81931" cy="22.1133" r="5.81931" fill="#FFB5AB"/>
+                                <circle cx="5.81931" cy="38.4072" r="5.81931" fill="#FFB5AB"/>
+                                <rect class="tests__btn-ico--hover" x="14.7812" y="3.83594" width="49.2188" height="3.9375" rx="1.96875" fill="white"/>
+                                <rect x="14.7812" y="19.8359" width="49.2188" height="3.9375" rx="1.96875" fill="#FFB5AB"/>
+                                <rect x="14.7812" y="36.8359" width="49.2188" height="3.9375" rx="1.96875" fill="#FFB5AB"/>
+                                <path class="tests__btn-ico--hover" d="M4 6.53025L5.61659 8.14684L8.58033 3.83594" stroke="#FC6652" stroke-width="1.07772" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="situation">
+                <img src="./img/situation/bg-cube-1.png" alt="" class="situation__bg-item situation__bg-item--cube-first">
+                <img src="./img/situation/bg-cube-2.png" alt="" class="situation__bg-item situation__bg-item--cube-second">
+                <img src="./img/situation/bg-cube-main.png" alt="" class="situation__bg-item situation__bg-item--cube-main">
+                <div class="container">
+                    <div class="situation__inner">
+                        <h3 class="situation__title subtitle">Разберите нестандартные ситуации</h3>
+                        <div class="situation__items">
+                            <div class="situation__item">
+                                <div class="situation__item-text">Ноутбук начал <span class="situation__item-text--weight">перезагружаться</span> прямо посреди теста</div>
+                                <img src="./img/situation/item-img-1.png" alt="" class="situation__item-img">
+                                <div class="situation__item-decor"></div>
+                            </div>
+                            <div class="situation__item">
+                                <div class="situation__item-text">Не удается запустить тестирование —  <span class="situation__item-text--weight">техническая ошибка</span></div>
+                                <img src="./img/situation/item-img-2.png" alt="" class="situation__item-img">
+                                <div class="situation__item-decor"></div>
+                            </div>
+                            <div class="situation__item">
+                                <div class="situation__item-text"><span class="situation__item-text--weight">Оборвалось интернет соединение</span> в самый ответственный момент</div>
+                                <img src="./img/situation/item-img-3.png" alt="" class="situation__item-img">
+                                <div class="situation__item-decor"></div>
+                            </div>
+                            <div class="situation__item">
+                                <div class="situation__item-text">Загрузился вопрос, <span class="situation__item-text--weight">но не загрузилась таблица</span></div>
+                                <img src="./img/situation/item-img-4.png" alt="" class="situation__item-img">
+                                <div class="situation__item-decor"></div>
+                            </div>
+                      
+                    </div>
+                    <div class="situation__card">
+                  
+
+                        <div class="situation__card-content">
+                            <img src="./img/situation/card-content-person.png" alt="" class="situation__card-content-decor">
+                            <h2 class="situation__card-title">Без паники!</h2>
+                            <div class="situation__card-text">У нас есть план эвакуации из любой проблемной ситуации.</div>
+                           
+                        </div>
+                        <div class="situation__card-info">
+                            <button class="situation__card-btn button">
+                                <span class="situation__card-btn-text">Прокачать реакцию</span>
+                                <img src="./img/situation/card-btn-ico.svg" alt="" class="situation__card-btn-ico">
+                            </button>
+                            <img src="./img/situation/card-info-number.png" alt="" class="situation__card-info-decor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            </section>
+            
+            <div class="wrapper">
+                <img src="./img/reports/decor.png" alt="" class="reports__decor">
+                <img src="./img/reports/decor-line.png" alt="" class="reports__decor-line">
+              <div class="section-dark" >
+      
+                <section class="reports">
+                    <div class="container ">
+                        <div class="reports__inner ">
+                            <div class="reports__content">
+                                <div class="reports__bg-item reports__bg-item--number">04</div>
+                                <svg class="reports__bg-item reports__bg-item--line" width="729" height="259" viewBox="0 0 729 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="reports__line-move--first" d="M-98.5 0.5C-77.5 139 13.3229 -6.94795 95.5 109.499C213 276 582 318.5 727 149" stroke="url(#paint0_linear_401_454)" stroke-width="3"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_401_454" x1="-50" y1="78.5" x2="745.556" y2="-15.254" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#FC6652" stop-opacity="0"/>
+                                    <stop offset="0.167004" stop-color="#FC6652" stop-opacity="0.85"/>
+                                    <stop offset="0.28504" stop-color="#FC6652" stop-opacity="0"/>
+                                    <stop offset="0.604167" stop-color="#FC6652" stop-opacity="0.01"/>
+                                    <stop offset="0.833333" stop-color="#F87160" stop-opacity="0.22"/>
+                                    <stop offset="0.931264" stop-color="#F08678" stop-opacity="0"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+
+                                <h2 class="reports__title">Посмотрите глазами работодателя</h2>
+                                <p class="reports__text">По результатам наших тестов вы получите отчёты, идентичные тем, что получает работодатель после реального теста. </p>
+                                <p class="reports__text">Это поможет вам оценить собственные силы в глазах будущего босса.</p>
+                                
+                            </div>
+                            <div class="reports__images">
+                                <img src="./img/reports/bg-item-cube.png" alt="" class="reports__bg-item reports__bg-item--cube">
+                                <img src="./img/reports/bg-item-grid.png" alt="" class="reports__bg-item reports__bg-item--grid">
+
+                                <img src="./img/reports/img-layer-1.jpg" alt="" class="reports__img-layer reports__img-layer--first">
+                                <img src="./img/reports/img-layer-2.jpg" alt="" class="reports__img-layer reports__img-layer--second">
+                                <img src="./img/reports/img-layer-3.png" alt="" class="reports__img-layer reports__img-layer--third">
+                                <img src="./img/reports/img-layer-4.png" alt="" class="reports__img-layer reports__img-layer--fourth">
+                                <div class="reports__img-layer reports__img-layer--fivth">       
+                                    <svg  class="reports__img-line" width="741" height="172" viewBox="0 0 741 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="reports__line-move--second" d="M1.41602 170.488L60.8481 90.7997C81.7791 67.4351 114.353 25.6804 131.717 25.6804C155.341 25.6804 162.811 121.701 190.876 121.701C218.941 121.701 226.008 60.5011 253.467 60.5011C280.927 60.5011 268.207 107.381 302.733 114.466C350.943 117.289 395.732 18.1898 450.69 12.1394C495.991 7.15205 619 170.488 780.5 1.5" stroke="url(#paint0_linear_401_895)" stroke-width="2.49365"/>
+                                        <path class="reports__line-move--second reports__line--mobile" d="M1.41602 170.488L60.8481 90.7997C81.7791 67.4351 114.353 25.6804 131.717 25.6804C155.341 25.6804 162.811 121.701 190.876 121.701C218.941 121.701 226.008 60.5011 253.467 60.5011C280.927 60.5011 268.207 107.381 302.733 114.466C350.943 117.289 395.732 20.1898 450.69 -12.1394C495.991 12.15205 619 170.488 780.5 1.5" stroke="url(#paint0_linear_401_895)" stroke-width="2.49365"/>
+                                        <defs>
+                                            
+                                            <linearGradient id="paint0_linear_401_895" x1="770" y1="29" x2="1.00034" y2="175.888" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FC6652" offset="0" stop-opacity="0.12"/>
+                                            <stop offset="0.226307" stop-color="#FC6652"/>
+                                            <stop offset="0.945899" stop-color="#FC6652" stop-opacity="0.41"/>
+                                            <stop offset="0.998249" stop-color="#FC6652" stop-opacity="0"/>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+
+                                    <img src="./img/reports/img-line-gradient.svg" alt="" class="reports__img-line-gradient">
+                                    <img src="./img/reports/line-circle.svg" alt="" class="reports__img-circle reports__img-circle--first">
+                                    <img src="./img/reports/line-circle.svg" alt="" class="reports__img-circle reports__img-circle--second">
+                                    <img src="./img/reports/line-circle.svg" alt="" class="reports__img-circle reports__img-circle--third">
+                                    <img src="./img/reports/img-circle-line.png" alt="" class="reports__img-circle-line reports__img-circle-line--first">
+                                    <img src="./img/reports/img-circle-line.png" alt="" class="reports__img-circle-line reports__img-circle-line--second">
+                                </div>
+                            </div>
+                            <button class="reports__btn button">
+                                <span class="reports__btn-text">Скачать отчеты</span>
+                                <img src="./img/reports/btn-ico.svg" alt="" class="reports__btn-ico">
+                            </button>
+                        </div>
+                    </div>
+                </section>  
+             
+            
+            <section class="verification">
+                <div class="verification__decor"></div>
+                <div class="container">
+                    <div class="verification__inner">
+                        <div class="verification__images">
+                            <img src="./img/verification/img-compucter.png" alt="" class="verification__img verification__img-compucter">
+                            <img src="./img/verification/img-compucter-layer-2.png" alt="" class="verification__img verification__img-compucter-decor">
+                            <img src="./img/verification/img-compucter-layer-3.png" alt="" class="verification__img verification__img-compucter-logo">
+                            <!-- <img src="./img/verification/img-line.png" alt="" class="verification__img verification__img-line"> -->
+                           
+                        </div>
+                        <div class="verification__content">
+                            <img src="./img/verification/bg-item-1.png" alt="" class="verification__bg-item verification__bg-item--grid">
+                            <div class="verification__bg-item verification__bg-item--number">05</div>
+                            <div class="verification__name">ЭКСКЛЮЗИВ</div>
+                            <h2 class="verification__title">Пройдите верификацию и прокторинг</h2>
+                            <p class="verification__text">Иногда работодатели устанавливают за кандидатами роботизированное наблюдение или просят пройти повторное тестирование.</p>
+                            <p class="verification__text">Узнайте, что именно отслеживает система. Опробуйте верификацию и прокторинг на нашей платформе!</p>
+                           
+                        </div>
+                        <button class="verification__btn button">
+                            <span class="verification__btn-text">Пройти верификацию</span>
+                            <img src="./img/verification/btn-info.svg" alt="" class="verification__btn-ico">
+                        </button>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <section class="course">
+                <div class="container">
+                    <div class="course__inner">
+                        <div class="course__content"> 
+                            <div class="course__bg-item course__bg-item--number">06</div>   
+                            <div class="course__name">Новинка!</div>
+                            <h2 class="course__title">Получите нужный курс за минуту. </h2>
+                            <p class="course__text">Скопируйте текст письма о назначении тестов 
+                            и ответьте на несколько вопросов. 
+                            Наш алгоритм определит систему тестирования, 
+                            сформирует курс и укажет цену.</p>
+                            
+                            
+                        </div>
+                        <div class="course__images">
+                            <img src="./img/course/grid-bg.png" alt="" class="course__img course__img-grid">
+                            <img src="./img/course/cube-2.png" alt="" class="course__img course__img-cube course__img-cube--third">
+                            <img src="./img/course/cube-2.png" alt="" class="course__img course__img-cube course__img-cube--second">
+                            <img src="./img/course/cube-1.png" alt="" class="course__img course__img-cube course__img-cube--first">
+                            <img src="./img/course/list-1.png" alt="" class="course__img course__img-list course__img-list--first">
+                            <img src="./img/course/list-2.png" alt="" class="course__img course__img-list course__img-list--second">
+                            <img src="./img/course/list-3.png" alt="" class="course__img course__img-list course__img-list--third">
+                            <img src="./img/course/column-img-1.png" alt="" class="course__img course__img-column course__img-column--first">
+                            <img src="./img/course/column-img-2.png" alt="" class="course__img course__img-column course__img-column--second">
+                            <img src="./img/course/column-img-3.png" alt="" class="course__img course__img-column course__img-column--third">
+                            <img src="./img/course/message-1.png" alt="" class="course__img course__img-message course__img-message--first">
+                            <img src="./img/course/message-2.png" alt="" class="course__img course__img-message course__img-message--second">
+                            <svg class="course__img course__img-arrow--first" width="166" height="56" viewBox="0 0 166 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="course__arrow--first" d="M3.88565 23.4038L42.2161 45.4364L120.32 0.685547L164.689 26.3034" stroke="url(#paint0_linear_3024_10)" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path class="course__arrow-color--first" d="M3.88565 23.4038L42.2161 45.4364L120.32 0.685547L164.689 26.3034" stroke="url(#paint0_linear_3024_10-color)" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g filter="url(#filter0_i_3024_10)">
+                                <path class="course__arrow-decor--first" d="M26.9748 51.257L14.1867 51.6456C13.9148 51.6533 13.6536 51.5958 13.4625 51.4855L9.42412 49.1541C9.15894 49.001 9.07413 48.7718 9.2074 48.569C9.34335 48.3661 9.67181 48.2278 10.046 48.2169L21.9793 47.854L22.6066 40.9657C22.6268 40.7489 22.8651 40.5585 23.2164 40.4816C23.5691 40.4038 23.9662 40.4528 24.2314 40.6059L28.2697 42.9372C28.4609 43.0476 28.5592 43.1991 28.5484 43.3545L27.8753 50.7371C27.8498 51.0176 27.4594 51.243 26.9748 51.257Z" fill="url(#paint1_linear_3024_10)"/>
+                                <path class="course__arrow-decor--first" d="M18.225 46.2052L5.43692 46.5938C5.16501 46.6016 4.90386 46.5441 4.71271 46.4337L0.674364 44.1024C0.409179 43.9493 0.324374 43.72 0.45764 43.5172C0.593597 43.3144 0.922049 43.1761 1.29627 43.1652L13.2296 42.8023L13.8569 35.9139C13.8771 35.6971 14.1153 35.5067 14.4667 35.4298C14.8194 35.3521 15.2165 35.401 15.4816 35.5541L19.52 37.8855C19.7111 37.9958 19.8094 38.1474 19.7986 38.3028L19.1256 45.6854C19.1 45.9659 18.7096 46.1913 18.225 46.2052Z" fill="url(#paint2_linear_3024_10)"/>
+                                </g>
+                                <g filter="url(#filter1_i_3024_10)">
+                                <path class="course__arrow-decor--first" d="M137.975 25.257L125.187 25.6456C124.915 25.6533 124.654 25.5958 124.462 25.4855L120.424 23.1541C120.159 23.001 120.074 22.7718 120.207 22.569C120.343 22.3661 120.672 22.2278 121.046 22.2169L132.979 21.854L133.607 14.9657C133.627 14.7489 133.865 14.5585 134.216 14.4816C134.569 14.4038 134.966 14.4528 135.231 14.6059L139.27 16.9372C139.461 17.0476 139.559 17.1991 139.548 17.3545L138.875 24.7371C138.85 25.0176 138.459 25.243 137.975 25.257Z" fill="url(#paint3_linear_3024_10)"/>
+                                <path class="course__arrow-decor--first" d="M129.225 20.2052L116.437 20.5938C116.165 20.6016 115.904 20.5441 115.713 20.4337L111.674 18.1024C111.409 17.9493 111.324 17.72 111.458 17.5172C111.594 17.3144 111.922 17.1761 112.296 17.1652L124.23 16.8023L124.857 9.91393C124.877 9.69712 125.115 9.50673 125.467 9.42979C125.819 9.35208 126.216 9.40104 126.482 9.55413L130.52 11.8855C130.711 11.9958 130.809 12.1474 130.799 12.3028L130.126 19.6854C130.1 19.9659 129.71 20.1913 129.225 20.2052Z" fill="url(#paint4_linear_3024_10)"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_i_3024_10" x="0.395447" y="35.3933" width="28.1537" height="20.2529" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3024_10"/>
+                                </filter>
+                                <filter id="filter1_i_3024_10" x="111.395" y="9.39331" width="28.1537" height="20.2529" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3024_10"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_3024_10" x1="164.689" y1="23.061" x2="-7.13354" y2="18.5482" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#ACACAC" offset="0" stop-opacity="0.21"/>
+                                <stop offset="0.47222" stop-color="#7C6969" stop-opacity="0.90806"/>
+                                <stop offset="0.739409" stop-color="#D1D1D1" stop-opacity="0.93"/>
+                                <stop offset="1" stop-color="#989898" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint0_linear_3024_10-color" x1="164.689" y1="23.061" x2="-7.13354" y2="18.5482" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FC6652" offset="0" stop-opacity="0.21"/>
+                                <stop offset="0.47222" stop-color="#FC6652" stop-opacity="0.90806"/>
+                                <stop offset="0.739409" stop-color="#FC6652" stop-opacity="0.93"/>
+                                <stop offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_3024_10" x1="31.6039" y1="51.9319" x2="31.272" y2="36.4703" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--first" offset="0" stop-color="#CBBCBA"/>
+                                <stop class="course__arrow-decor-color--first" offset="1" stop-color="#AFADAD" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_3024_10" x1="22.8542" y1="46.8802" x2="22.5222" y2="31.4186" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--first" offset="0" stop-color="#CBBCBA"/>
+                                <stop class="course__arrow-decor-color--first" offset="1" stop-color="#AFADAD" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_3024_10" x1="142.604" y1="25.9319" x2="142.272" y2="10.4703" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--first" offset="0" stop-color="#CBBCBA"/>
+                                <stop class="course__arrow-decor-color--first" offset="1" stop-color="#AFADAD" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_3024_10" x1="133.854" y1="20.8802" x2="133.522" y2="5.41859" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--first" offset="0" stop-color="#CBBCBA"/>
+                                <stop class="course__arrow-decor-color--first" offset="1" stop-color="#AFADAD" stop-opacity="0.47"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                
+                            <svg class="course__img course__img-arrow--second" width="213" height="151" viewBox="0 0 213 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="course__arrow--second" d="M162.6 1.36914L209.87 29.3961L0.884766 149.001" stroke="url(#paint0_linear_3024_11)" stroke-width="2.78773"/>
+                                <path class="course__arrow-color--second" d="M162.6 1.36914L209.87 29.3961L0.884766 149.001" stroke="url(#paint0_linear_3024_11-color)" stroke-width="2.78773"/>
+                                <g filter="url(#filter0_i_3024_11)">
+                                <path class="course__arrow-decor--second" d="M135.923 53.2913L135.269 46.1198C135.256 45.9673 135.353 45.8208 135.539 45.7136L139.461 43.4489C139.719 43.3002 140.105 43.2526 140.446 43.3274C140.787 43.4036 141.02 43.5878 141.038 43.7977L141.649 50.4899L153.24 50.8416C153.605 50.853 153.925 50.9866 154.055 51.1836C154.185 51.3814 154.103 51.6041 153.845 51.7528L149.923 54.0175C149.737 54.1247 149.482 54.1798 149.22 54.1738L136.798 53.7963C136.326 53.782 135.946 53.5631 135.923 53.2913Z" fill="url(#paint1_linear_3024_11)"/>
+                                <path class="course__arrow-decor--second" d="M144.423 48.3843L143.769 41.2128C143.756 41.0603 143.853 40.9138 144.038 40.8066L147.961 38.5419C148.219 38.3932 148.605 38.3457 148.946 38.4204C149.287 38.4966 149.52 38.6808 149.538 38.8907L150.149 45.5829L161.74 45.9347C162.105 45.946 162.425 46.0796 162.555 46.2766C162.685 46.4744 162.603 46.6971 162.345 46.8458L158.422 49.1105C158.237 49.2177 157.982 49.2728 157.72 49.2668L145.298 48.8893C144.826 48.875 144.446 48.6561 144.423 48.3843Z" fill="url(#paint2_linear_3024_11)"/>
+                                </g>
+                                <g filter="url(#filter1_i_3024_11)">
+                                <path class="course__arrow-decor--second" d="M35.9229 111.291L35.2691 104.12C35.2561 103.967 35.3528 103.821 35.5385 103.714L39.4614 101.449C39.719 101.3 40.1048 101.253 40.4461 101.327C40.7874 101.404 41.0201 101.588 41.0384 101.798L41.6491 108.49L53.24 108.842C53.6048 108.853 53.9252 108.987 54.0546 109.184C54.1854 109.381 54.103 109.604 53.8454 109.753L49.9225 112.018C49.7368 112.125 49.4818 112.18 49.2203 112.174L36.7978 111.796C36.3257 111.782 35.9465 111.563 35.9229 111.291Z" fill="url(#paint3_linear_3024_11)"/>
+                                <path class="course__arrow-decor--second" d="M44.4228 106.384L43.769 99.2128C43.7559 99.0603 43.8527 98.9138 44.0384 98.8066L47.9613 96.5419C48.2189 96.3932 48.6046 96.3457 48.9459 96.4204C49.2872 96.4966 49.52 96.6808 49.5383 96.8907L50.149 103.583L61.7399 103.935C62.1047 103.946 62.4251 104.08 62.5545 104.277C62.6853 104.474 62.6029 104.697 62.3453 104.846L58.4224 107.111C58.2367 107.218 57.9817 107.273 57.7202 107.267L45.2976 106.889C44.8256 106.875 44.4464 106.656 44.4228 106.384Z" fill="url(#paint4_linear_3024_11)"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_i_3024_11" x="135.268" y="38.3855" width="27.3479" height="19.7888" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3024_11"/>
+                                </filter>
+                                <filter id="filter1_i_3024_11" x="35.2679" y="96.3855" width="27.3479" height="19.7888" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3024_11"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_3024_11" x1="133.969" y1="6.5713" x2="40.129" y2="162.37" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#ACACAC" offset="0" stop-opacity="0.21"/>
+                                <stop offset="0.509062" stop-color="#D1D1D1" stop-opacity="0.90806"/>
+                                <stop offset="1" stop-color="#989898" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint0_linear_3024_11-color" x1="133.969" y1="6.5713" x2="40.129" y2="162.37" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FC6652" offset="0" stop-opacity="0.21"/>
+                                <stop offset="0.509062" stop-color="#FC6652" stop-opacity="0.90806"/>
+                                <stop offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_3024_11" x1="134.787" y1="55.8873" x2="160.709" y2="54.2175" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--second" offset="0" stop-color="#D1D1D1"/>
+                                <stop class="course__arrow-decor-color--second" offset="1" stop-color="#D1D1D1" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_3024_11" x1="143.287" y1="50.9803" x2="169.209" y2="49.3105" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--second" offset="0" stop-color="#D1D1D1"/>
+                                <stop class="course__arrow-decor-color--second" offset="1" stop-color="#D1D1D1" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_3024_11" x1="34.7873" y1="113.887" x2="60.7087" y2="112.218" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--second" offset="0" stop-color="#D1D1D1"/>
+                                <stop class="course__arrow-decor-color--second" offset="1" stop-color="#D1D1D1" stop-opacity="0.47"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_3024_11" x1="43.2872" y1="108.98" x2="69.2086" y2="107.311" gradientUnits="userSpaceOnUse">
+                                <stop class="course__arrow-decor-color--second" offset="0" stop-color="#D1D1D1"/>
+                                <stop class="course__arrow-decor-color--second" offset="1" stop-color="#D1D1D1" stop-opacity="0.47"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                
+
+                            <img src="./img/course/text-img.png" alt="" class="course__img course__img-text">
+    
+                            <!-- <img src="./img/course/cube-arrow.svg" alt="" class="course__img course__img-cube-arrow"> -->
+
+                            <svg class="course__img course__img-cube-arrow" width="246" height="143" viewBox="0 0 246 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect class="course__arrow--cube" y="1.17604" width="139.122" height="139.122" transform="matrix(0.866056 0.499948 -0.866056 0.499948 123.748 1.38307)" stroke="url(#paint0_linear_3449_2)" stroke-width="2.35233"/>
+                                <rect class="course__arrow--cube" y="1.05882" width="125.256" height="125.256" transform="matrix(0.866056 0.499948 -0.866056 0.499948 123.647 8.64305)" stroke="url(#paint1_linear_3449_2)" stroke-width="2.11787"/>
+                                <rect class="course__arrow-color--cube" y="1.17604" width="139.122" height="139.122" transform="matrix(0.866056 0.499948 -0.866056 0.499948 123.748 1.38307)" stroke="url(#paint0_linear_3449_2-color)" stroke-width="2.35233"/>
+                                <rect class="course__arrow-color--cube" y="1.05882" width="125.256" height="125.256" transform="matrix(0.866056 0.499948 -0.866056 0.499948 123.647 8.64305)" stroke="url(#paint1_linear_3449_2-color)" stroke-width="2.11787"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_3449_2" x1="53.2661" y1="194.741" x2="186.879" y2="25.4814" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#ACACAC" offset="0"/>
+                                    <stop offset="1" stop-color="#D1D1D1" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_3449_2" x1="63.6864" y1="0" x2="63.6864" y2="127.373" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#ACACAC" offset="0"/>
+                                    <stop offset="1" stop-color="#D1D1D1" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint0_linear_3449_2-color" x1="53.2661" y1="194.741" x2="186.879" y2="25.4814" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FC6652" offset="0"/>
+                                    <stop offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_3449_2-color" x1="63.6864" y1="0" x2="63.6864" y2="127.373" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FC6652" offset="0"/>
+                                    <stop offset="1" stop-color="#FC6652" stop-opacity="0"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                                
+                        </div>
+                        <button class="course__btn button">
+                            <span class="course__btn-text">Хочу и беру!</span>
+                            <img src="./img/course/btn-ico.svg" alt="" class="course__btn-img">
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="platform">
+                <div class="container">
+                    <div class="platform__inner">
+                        <h2 class="platform__title">Как воспользоваться платформой</h2>
+                        <div class="platform__content">
+                            <div class="platform__section platform__section--first">
+                                <div class="platform__number platform__number--left">
+                                    <div class="platform__number-text">01</div>
+                                </div>
+                                <h3 class="platform__section-title">Проверка и подбор курса</h3>
+                                <p class="platform__section-text">Ответьте на несколько вопросов 
+                                и вставьте в специальное окно текст письма о назначении тестов. </p>
+                                <p class="platform__section-text">Наш алгоритм определит, действительно ли у вас Talent Q, чтобы вы зря не тратили деньги. Затем система сформирует необходимый курс и укажет цену.</p>
+                            </div>
+                            <div class="platform__section platform__section--main">
+                                <div class="platform__number platform__number--main">
+                                    <div class="platform__number-text platform__number-text--main">02</div>
+                                </div>
+                               <h3 class="platform__section-title platform__section-title--main">Регистрация в системе</h3>
+                                <p class="platform__section-text platform__section-text--main">Войдите на платформу, используя код из СМС. Процедура займёт не больше минуты.</p>
+                                    <div class="platform__items platform__items--main">
+                                        <div class="platform__item platform__item--main">
+                                            <img src="./img/platform/item-img-main-1.png" alt="" class="platform__item-img">
+                                        </div> 
+                                        <div class="platform__item platform__item--main">
+                                            <img src="./img/platform/item-img-main-2.png" alt="" class="platform__item-img">
+                                        </div> 
+                                    </div>
+                                    <button class="platform__btn--main button">
+                                        <span class="platform__btn-text--main">Поехали</span>
+                                        <img src="./img/platform/btn-ico.svg" alt="" class="platform__btn-ico--main">
+                                    </button>
+                            </div>
+                            <div class="platform__section platform__section--second">
+                                <div class="platform__number platform__number--right">
+                                    <div class="platform__number-text">03</div>
+                                </div>
+                                <h3 class="platform__section-title">Оплата подпсики</h3>
+                                <p class="platform__section-text">Выберите удобный способ онлайн-оплаты и не беспокойтесь: соединение защищено!</p>
+                                <div class="platform__items">
+                                    <div class="platform__item">
+                                        <img src="./img/platform/item-img-1.png" alt="" class="platform__item-img">
+                                    </div> 
+                                    <div class="platform__item">
+                                        <img src="./img/platform/item-img-2.png" alt="" class="platform__item-img">
+                                    </div> 
+                                    <div class="platform__item">
+                                        <img src="./img/platform/item-img-3.png" alt="" class="platform__item-img">
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__content">
+                                <div class="footer__content-text footer__content--first">
+                                    <a href="#!" class="footer__content-link">Политика конфиденциальности</a>
+                                </div>
+                                <div class="footer__content-text footer__content-text--right footer__content--second">
+                                    <a href="#!" class="footer__content-link ">Пользовательское соглашение</a>
+                                </div>
+                                <div class="footer__content-text footer__content--third">
+                                    Copyright 2020 Q solutions
+                                    <span class="footer__content-text--mobile">. Все права защищены</span>
+                                </div>                                       
+                                <div class="footer__content-text footer__content-text--right footer__content--fourth">
+                                    <div class="footer__content-text-box footer__content-text-box--left">Добрышин Антон</div>
+                                        <div class="footer__content-text-box">
+                                            <a href="tel:#!" class="footer__content-link">+7 (999) 999 99 99</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="footer__social">
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/instagram.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/vk.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/facebook.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/telegram.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/youtube.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                            <div class="footer__social-item">
+                                <a href="#!" class="footer__social-link">
+                                    <img src="./img/footer/whatsapp.svg" alt="" class="footer__social-ico">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            </div>  
+            </div>
+            
+            
+            
+           
+        </main>
+        
+
+    </div>
+<script src="./libs/Gsap/gsap.min.js"></script>
+<script src="./libs/Gsap/DrawSVGPlugin.min.js"></script>
+<script src="./libs/Gsap/ScrollTrigger.min.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
