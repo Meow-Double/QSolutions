@@ -1,14 +1,14 @@
-@media screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
   .verification__bg-item--number {
     right: -10%;
   }
 }
-@media screen and (max-width: 1330px) {
+@media (max-width: 1330px) {
   .verification__bg-item--number {
     right: 0%;
   }
 }
-@media screen and (max-width: 1290px) {
+@media (max-width: 1290px) {
   .header__decor-img {
     width: 500px;
   }
@@ -21,7 +21,7 @@
     margin-bottom: 60px;
   }
 }
-@media screen and (max-width: 1290px) {
+@media (max-width: 1290px) {
   .header__inner {
     grid-template-columns: 600px auto;
   }
@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 1240px) and (min-width: 1200px) {
+@media (max-width: 1240px) and (min-width: 1200px) {
   .steps__content-video {
     width: 640px;
   }
@@ -62,7 +62,7 @@
     line-height: 26px;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1071px) {
+@media (max-width: 1200px) and (min-width: 1071px) {
   .steps__content-box {
     align-items: start;
     gap: 0px 20px;
@@ -222,7 +222,7 @@
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
   .tests__inner {
     gap: 0px 40px;
     grid-template-columns: 700px 329px;
@@ -230,10 +230,6 @@
   .tests__info-decor-rectangle {
     width: 680px;
   }
-  /* .tests__info-decor-img{
-    width: 700px;
-  } */
-
   .tests__title {
     font-size: 30px;
     line-height: 40px;
@@ -255,7 +251,7 @@
   }
 }
 
-@media screen and (max-width: 1240px) {
+@media (max-width: 1240px) {
   .situation__item-text {
     font-size: 21px;
     line-height: 27px;
@@ -388,7 +384,7 @@
     padding: 15px;
   }
 }
-@media screen and (max-width: 1130px) {
+@media (max-width: 1130px) {
   .header {
     margin-bottom: 80px;
   }
@@ -445,7 +441,7 @@
     margin-bottom: 50px;
   }
 }
-@media screen and (max-width: 1160px) and (min-width: 981px) {
+@media (max-width: 1160px) and (min-width: 981px) {
   .reports__bg-item--cube {
     width: 580px;
     top: 50%;
@@ -537,7 +533,7 @@
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 1070px) and (min-width: 981px) {
+@media (max-width: 1070px) and (min-width: 981px) {
   .reports__inner {
     grid-template-columns: 400px 100%;
   }
@@ -574,7 +570,7 @@
     top: 46%;
   }
 }
-@media screen and (max-width: 1115px) {
+@media (max-width: 1115px) {
   .tests__inner {
     gap: 0px 30px;
     grid-template-columns: 680px 320px;
@@ -587,7 +583,7 @@
   }
 }
 
-@media screen and (max-width: 1070px) {
+@media (max-width: 1070px) {
   .steps {
     padding-bottom: 80px;
   }
@@ -742,7 +738,7 @@
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media (max-width: 1040px) {
   .navbar {
     padding-bottom: 30px;
   }
@@ -792,7 +788,7 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
   .reports {
     padding-bottom: 80px;
   }
@@ -962,7 +958,7 @@
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 930px) {
+@media (max-width: 930px) {
   .header {
     margin-bottom: 60px;
   }
@@ -1002,7 +998,7 @@
     font-size: 200px;
   }
 }
-@media screen and (max-width: 860px) {
+@media (max-width: 860px) {
   .steps__title {
     font-size: 41px;
   }
@@ -1116,7 +1112,7 @@
     padding-bottom: 30px;
   }
 }
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .header {
     margin-bottom: 30px;
   }
@@ -1200,7 +1196,7 @@
     margin-bottom: 15px;
   }
 }
-@media screen and (max-width: 735px) {
+@media (max-width: 735px) {
   .steps__content-video-layer {
     height: 380px;
   }
@@ -1545,7 +1541,7 @@
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 690px) {
+@media (max-width: 690px) {
   .steps__title {
     font-size: 32px;
     line-height: 52px;
@@ -1570,7 +1566,7 @@
     line-height: 27px;
   }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .header__section {
     padding-bottom: 77px;
     clip-path: circle(160vh at 50% -52vh);
@@ -1940,6 +1936,9 @@
   .reports__btn-ico {
     width: 26px;
   }
+  .reports__btn {
+    filter: drop-shadow(0px 5px 32px rgba(222, 65, 44, 0.77));
+  }
 
   .course__name {
     font-family: gothampro_f, sans-serif;
@@ -1972,7 +1971,7 @@
   }
 }
 
-@media screen and (max-width: 570px) {
+@media (max-width: 570px) {
   .footer__content--first {
     font-size: 11px;
     line-height: 14px;
@@ -1990,7 +1989,7 @@
     line-height: 18px;
   }
 }
-@media screen and (max-width: 545px) {
+@media (max-width: 545px) {
   .steps__content-video {
     margin-bottom: 20px;
   }
@@ -2140,7 +2139,7 @@
     line-height: 32px;
   }
 }
-@media screen and (max-width: 520px) {
+@media (max-width: 520px) {
   .header__btn-title {
     font-size: 13px;
   }
@@ -2159,7 +2158,7 @@
     bottom: -200px;
   }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .header__section {
     padding-bottom: 86px;
     clip-path: circle(190vh at 50% -82vh);
@@ -2408,8 +2407,8 @@
   .reports__img-circle-line--first {
     top: -64px;
     right: -302px;
-  }
 
+  }
   .reports__img-line {
     top: -96px;
   }
@@ -2420,7 +2419,8 @@
 
   .course__img-grid {
     width: 343px;
-    height: 392px;
+    height: 342px;
+    left: -2%;
   }
   .course__img-cube {
     width: 100px;
@@ -2526,7 +2526,7 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media (max-width: 470px) {
   .steps__content-video-text {
     right: 1%;
   }
@@ -2581,7 +2581,7 @@
     padding: 5px;
   }
 }
-@media screen and (max-width: 430px) {
+@media (max-width: 430px) {
   .tests__info-decor {
     width: 344px;
     margin: 0 auto;
@@ -2609,11 +2609,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
-  /* .header__section {
-    padding-bottom: 84px;
-    clip-path: circle(190vh at 50% -92vh);
-  } */
+@media (max-width: 420px) {
   .header__section {
     padding-bottom: 84px;
     clip-path: circle(180vh at 50% -84vh);
@@ -2724,7 +2720,7 @@
     line-height: 24px;
   }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .tests__inner{
 display: flex;
 flex-direction: column;
@@ -2780,7 +2776,7 @@ flex-direction: column;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .steps__content-video-message--first {
     left: 29%;
   }

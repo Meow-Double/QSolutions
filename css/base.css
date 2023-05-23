@@ -104,8 +104,8 @@ body {
   padding: 0;
   margin: 0;
   color: var(--default-color);
-  overflow-x: hidden;
-
+  overflow: hidden;
+  will-change: transform;
 }
 ul,
 li {
@@ -162,6 +162,31 @@ p {
 }
 .button:hover {
   transform: scale(1.05) !important;
+}
+.header--animation{
+  opacity: 0;
+}
+.loaded {
+  overflow: auto;
+  overflow-x: hidden;
+}
+.loaded .loader {
+  display: none;
+}
+.loader {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #17181D;
+}
+.loader-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: montserrat_f, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 /* -----------------Navbar---------------- */
 .navbar__menu-btn {
@@ -350,7 +375,9 @@ p {
   will-change: transform;
 }
 /* --------------------Steps------------------ */
-
+.main-sections {
+  overflow: hidden;
+}
 .steps {
   padding-top: 32px;
   padding-bottom: 100px;
@@ -501,6 +528,21 @@ p {
 .steps__item-ico {
   width: 45px;
   height: 52px;
+}
+.steps__item-ico-line {
+  opacity: 1;
+  animation: line 2s infinite;
+}
+@keyframes line {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .steps__bg-item {
@@ -1197,7 +1239,7 @@ p {
 }
 .verification__img-compucter {
   filter: drop-shadow(0px 20px 100px rgba(172, 56, 41, 0.44));
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
 .verification__images:hover .verification__img-compucter-decor {
   transform: translate(10px, -10px) scale(1.05) !important;
@@ -1205,7 +1247,7 @@ p {
 .verification__images:hover .verification__img-compucter-logo {
   transform: translate(10px, -10px) scale(1.05) !important;
 }
-.verification__images:hover .verification__img-compucter{
+.verification__images:hover .verification__img-compucter {
   transform: scale(1.03);
 }
 
@@ -1700,21 +1742,5 @@ p {
   transform: scale(1.24) !important;
 }
 .footer__social-link {
-  padding: 10px;;
-}
-
-.steps__item-ico-line {
-  opacity: 1;
-  animation: line 2s infinite;
-}
-@keyframes line {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  padding: 10px;
 }

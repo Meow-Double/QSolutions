@@ -2,10 +2,12 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="./css/min.base.css">
 </head>
 <body>
 
@@ -27,6 +29,9 @@
     
 
     <div class="main">
+           <div class="loader">
+            <span class="loader-text">Loading content...</span>
+            </div>
         <header class="header" >
           
                 <div class="header__scroll">
@@ -43,8 +48,8 @@
                         <img src="./img/logo.svg" alt="logo" class="navbar__logo-img">
                     </a>
                     <div class="navbar__menu">
-                        <a href="#!" class="navbar__menu-login navbar__menu-btn">Регистрация</a>
-                        <a href="#!" class="navbar__menu-registration navbar__menu-btn">Вход</a>
+                        <a href="#!" class="navbar__menu-login navbar__menu-btn header--animation">Регистрация</a>
+                        <a href="#!" class="navbar__menu-registration navbar__menu-btn header--animation">Вход</a>
                     </div>
                 </nav>  
                  <div class="header__inner">
@@ -58,7 +63,7 @@
                     </div>
                     <div class="header__buttons">
                         <div class="header__btn-item">
-                            <button class="header__btn header__btn--first">
+                            <button class="header__btn header__btn--first header--animation">
                                 <span class=".header__btn-text">Начать сейчас</span>
                                 <svg class="header__btn-ico" width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path class="header__btn-ico" d="M16.174 8.46095C16.8979 8.87889 16.8979 9.92374 16.174 10.3417L2.32952 18.3348C1.60563 18.7527 0.700767 18.2303 0.700767 17.3944L0.700767 1.40821C0.700767 0.572333 1.60563 0.0499098 2.32953 0.46785L16.174 8.46095Z" fill="white"/>
@@ -68,7 +73,7 @@
                             <div class="header__btn-title">Время - деньги</div>
                         </div>
                         <div class="header__btn-item header__btn-item--second">
-                            <button class="header__btn header__btn--second">
+                            <button class="header__btn header__btn--second header--animation">
                                 <span class=".header__btn-text">Подробнее</span>
                                 <img class="header__btn-ico" src="./img/header/header-btn-arrow.svg" alt="">
                             </button>
@@ -81,7 +86,7 @@
                 
             </div>
         </header>
-        <main class="main">
+        <main class="main-sections">
             <section class="steps" id="steps">
                 <img src="./img/steps/bg-item-1.png" alt="" class="steps__bg-item steps__bg-item--cube-first">
                 <img src="./img/steps/bg-item-2.png" alt="" class="steps__bg-item steps__bg-item--cube-second">
@@ -676,18 +681,13 @@
             </footer>
 
             </div>  
-            </div>
-            
-            
-            
-           
-        </main>
-        
-
+            </div> 
+        </main>    
     </div>
 <script src="./libs/Gsap/gsap.min.js"></script>
 <script src="./libs/Gsap/DrawSVGPlugin.min.js"></script>
 <script src="./libs/Gsap/ScrollTrigger.min.js"></script>
-<script src="./js/app.js"></script>
+<!-- <script src="./js/app.js"></script> -->
+<script src="./js/min.app.js"></script>
 </body>
 </html>

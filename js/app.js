@@ -1,24 +1,18 @@
 gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
 
-// gsap.fromTo(
-//   ".steps__item-ico-line",
-//   {
-//     repeat: -1,
-//     opacity: 0,
-//     duration: 2,
-//   },
-//   {
-//     repeat: -1,
-//     opacity: 1,
-//     duration: 2,
-//   }
-// );
 
-// ------------------------Header------------
+window.onload = function () {
+  setTimeout(function () {
+    document.body.classList.add("loaded");
 
+
+
+
+   
+    
 
 if (ScrollTrigger.isTouch !== 1) {
-
+// ------------------------Header------------
   const header = gsap.timeline();
   header
     .fromTo(
@@ -30,7 +24,7 @@ if (ScrollTrigger.isTouch !== 1) {
         delay: 0.3,
         duration: 2,
         opacity: 1,
-      }
+      },.6
     )
     .fromTo(
       ".header__subtitle",
@@ -112,9 +106,9 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       1
     );
-  
+
   //----------------------Steps------------
-  
+
   gsap.fromTo(
     ".steps__title",
     {
@@ -154,14 +148,14 @@ if (ScrollTrigger.isTouch !== 1) {
   //   opacity: 1,
   //   duration: 1.2,
   // });
-  
+
   const steps = gsap.timeline({
     scrollTrigger: {
       trigger: ".steps",
       start: "40% 70%",
     },
   });
-  
+
   steps
     .fromTo(
       ".steps__content-video",
@@ -273,18 +267,18 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       0.8
     );
-  
+
   // ---------------------tests-----------
-  
+
   const tests = gsap.timeline({
     scrollTrigger: {
       trigger: ".tests",
       start: "20% 60%",
     },
   });
-  
+
   let testsTitle = gsap.utils.toArray(".tests__info-row");
-  
+
   testsTitle.forEach((item) => {
     tests.fromTo(
       item,
@@ -300,7 +294,7 @@ if (ScrollTrigger.isTouch !== 1) {
       }
     );
   });
-  
+
   tests
     .fromTo(
       ".tests__info-decor-img",
@@ -391,16 +385,16 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       1
     );
-  
+
   // -------------------Situation------------
-  
+
   const situation = gsap.timeline({
     scrollTrigger: {
       trigger: ".situation",
       start: "30% 80%",
     },
   });
-  
+
   situation
     .fromTo(
       ".situation__title",
@@ -443,7 +437,7 @@ if (ScrollTrigger.isTouch !== 1) {
     },
     0.6
   );
-  
+
   // gsap.fromTo("",{},{
   //   scrollTrigger: {
   //   trigger: ".situation",
@@ -451,16 +445,16 @@ if (ScrollTrigger.isTouch !== 1) {
   //   marker:true,
   // },
   // })
-  
+
   // -----------------Reports-----------
-  
+
   const reports = gsap.timeline({
     scrollTrigger: {
       trigger: ".reports",
       start: "40% 80%",
     },
   });
-  
+
   reports
     .fromTo(
       ".reports__title",
@@ -569,7 +563,7 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       {
         drawSVG: "100%",
-  
+
         duration: 1,
       },
       1.4
@@ -581,7 +575,7 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       {
         drawSVG: "100%",
-  
+
         duration: 1.8,
       },
       2.2
@@ -643,16 +637,16 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       2.8
     );
-  
+
   // ------------------------Verification-----------
-  
+
   const verification = gsap.timeline({
     scrollTrigger: {
       trigger: ".verification",
       start: "40% 80%",
     },
   });
-  
+
   verification
     .fromTo(
       ".verification__name",
@@ -749,9 +743,8 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       1.8
     );
-  
+
   // ----------------Course---------------
-  
   const course = gsap.timeline({
     scrollTrigger: {
       trigger: ".course",
@@ -878,9 +871,7 @@ if (ScrollTrigger.isTouch !== 1) {
       { drawSVG: "0%" },
       { drawSVG: "100%", duration: 0.8, stagger: 0.4 },
       2.4
-    )
-  
-    .fromTo(
+    ) .fromTo(
       ".course__arrow-color--first",
       { drawSVG: "0%" },
       {
@@ -940,8 +931,6 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       4.8
     )
-    // .fromTo(".course__arrow-decor-color--cube", {opacity:0,}, {opacity:1,stopColor:"#FC6652"})
-  
     .fromTo(
       ".course__img-list",
       {},
@@ -957,7 +946,6 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       2.8
     )
-  
     .fromTo(
       ".course__img-message",
       {},
@@ -973,11 +961,7 @@ if (ScrollTrigger.isTouch !== 1) {
       },
       2.8
     );
-  
-  // .fromTo("", {}, {})
-  // .fromTo("", {}, {})
-  // .fromTo("", {}, {});
-  
+ 
   // -------------------Platform-------------------
   gsap.fromTo(
     ".platform__title",
@@ -995,14 +979,14 @@ if (ScrollTrigger.isTouch !== 1) {
       duration: 1.4,
     }
   );
-  
+
   const platform = gsap.timeline({
     scrollTrigger: {
       trigger: ".platform",
       start: "40% 80%",
     },
   });
-  
+
   platform.fromTo(
     ".platform__section--first",
     {
@@ -1040,41 +1024,160 @@ if (ScrollTrigger.isTouch !== 1) {
     },
     1.3
   );
-  
+
   //------------------Foter-------------
-  const footer=gsap.timeline( {
+  const footer = gsap.timeline({
     scrollTrigger: {
       trigger: ".footer",
       start: "top 80%",
     },
   });
-  
-  footer.fromTo(".footer__content-text ",{
-    opacity:0,
-  },{
-    opacity:1,
-    stagger:.4,
-    duration:.6,
-  },).fromTo(".footer__social-item",{
-    opacity:0,
-    y:15,
-  },{
-    opacity:1,
-    y:0,
-    stagger:.2,
-    duration:.6,
-  },1)
+
+  footer
+    .fromTo(
+      ".footer__content-text ",
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        stagger: 0.4,
+        duration: 0.6,
+      }
+    )
+    .fromTo(
+      ".footer__social-item",
+      {
+        opacity: 0,
+        y: 15,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        stagger: 0.2,
+        duration: 0.6,
+      },
+      1
+    );
 }
 
 
 
 
+if (ScrollTrigger.isTouch == 1) {
+
+  const items=document.querySelectorAll(".header--animation");
+
+  for(let i=0;i<items.length;i++){
+    items[i].classList.remove("header--animation")
+  }
 
 
 
 
+// -----------------Course------------------
+
+const course = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".course",
+    start: "40% 80%",
+  },
+});
 
 
+  course.fromTo(
+    ".course__arrow-color--first",
+    { drawSVG: "0%" },
+    {
+      keyframes: { drawSVG: ["0% 0%", "0% 100%", "100% 100%"] },
+      repeat: -1,
+      duration: 2,
+    },
+    1
+  )
+  .fromTo(
+    ".course__arrow-decor-color--first",
+    { opacity: 0 },
+    {
+      keyframes: {
+        "0%": { opacity: 1, stopColor: "#D1D1D1" },
+        "50%": { opacity: 1, stopColor: "#FC6652" },
+        "100%": { opacity: 1, stopColor: "#D1D1D1" },
+      },
+      duration: 2,
+      repeat: -1,
+    },
+    1
+  )
+
+  .fromTo(
+    ".course__arrow-color--second",
+    { drawSVG: "0%" },
+    {
+      keyframes: { drawSVG: ["0% 0%", "0% 100%", "100% 100%"] },
+      duration: 2,
+      repeat: -1,
+    },
+    2
+  )
+  .fromTo(
+    ".course__arrow-decor-color--second",
+    { opacity: 0 },
+    {
+      keyframes: {
+        "0%": { opacity: 1, stopColor: "#D1D1D1" },
+        "50%": { opacity: 1, stopColor: "#FC6652" },
+        "100%": { opacity: 1, stopColor: "#D1D1D1" },
+      },
+      duration: 2,
+      repeat: -1,
+    },
+    2
+  )
+
+  .fromTo(
+    ".course__arrow-color--cube",
+    { drawSVG: "0%" },
+    {
+      keyframes: { drawSVG: ["0% 0%", "0% 100%", "100% 100%"] },
+      repeat: -1,
+      duration: 2,
+    },
+    3
+  )
+  .fromTo(
+    ".course__img-list",
+    {},
+    {
+      keyframes: {
+        "0%": { y: 0, scale: 1 },
+        "40%": { y: -3, scale: 1.03 },
+        "100%": { y: 0, scale: 1 },
+      },
+      duration: 3,
+      repeat: -1,
+      delay: -0.25,
+    },
+    1
+  )
+  .fromTo(
+    ".course__img-message",
+    {},
+    {
+      keyframes: {
+        "0%": { y: 0 },
+        "40%": { y: -3 },
+        "100%": { y: 0 },
+      },
+      duration: 3,
+      repeat: -1,
+      delay: -0.25,
+    },
+    1
+  );
+
+}
 
 
-
+}, 400);
+};
