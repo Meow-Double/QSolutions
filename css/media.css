@@ -632,6 +632,7 @@
   }
   .tests__info {
     order: 2;
+    left: 0;
   }
   .tests__btn {
     order: 3;
@@ -1125,7 +1126,7 @@
   }
   .header__section {
     padding-bottom: 59px;
-    clip-path: circle(400vh at 50% -290vh);
+    clip-path:circle(1400px at 50% -539px);
   }
   .header__scroll {
     bottom: -34px;
@@ -1569,7 +1570,7 @@
 @media (max-width: 600px) {
   .header__section {
     padding-bottom: 77px;
-    clip-path: circle(160vh at 50% -52vh);
+    clip-path:circle(1000px at 50% -154px);
   }
   .header__title {
     font-size: 18px;
@@ -2161,7 +2162,7 @@
 @media (max-width: 500px) {
   .header__section {
     padding-bottom: 86px;
-    clip-path: circle(190vh at 50% -82vh);
+    clip-path:circle(945px at 50% -100px);
   }
   .navbar__logo-img {
     width: 108px;
@@ -2612,7 +2613,7 @@
 @media (max-width: 420px) {
   .header__section {
     padding-bottom: 84px;
-    clip-path: circle(180vh at 50% -84vh);
+    clip-path: circle(850px at 50% -100px);
   }
   .header__title {
     margin-top: 0;

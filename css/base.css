@@ -163,7 +163,7 @@ p {
 .button:hover {
   transform: scale(1.05) !important;
 }
-.header--animation{
+.header--animation {
   opacity: 0;
 }
 .loaded {
@@ -177,7 +177,7 @@ p {
   width: 100vw;
   height: 100vh;
 
-  background-color: #17181D;
+  background-color: #17181d;
 }
 .loader-text {
   display: flex;
@@ -236,7 +236,6 @@ p {
   margin-bottom: 100px;
 }
 .header__section {
-  clip-path: circle(800vh at 50% -690vh);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -707,6 +706,7 @@ p {
   grid-row: span 2;
   position: relative;
   z-index: 2;
+  left: -28px;
 }
 .tests__info-row {
   display: flex;
@@ -733,6 +733,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 .tests__info-arrows {
   position: absolute;
