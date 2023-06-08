@@ -5,12 +5,6 @@ window.onload = function () {
   setTimeout(function () {
     document.body.classList.add("loaded");
 
-
-
-
-   
-    
-
 if (ScrollTrigger.isTouch !== 1) {
 // ------------------------Header------------
   const header = gsap.timeline();
