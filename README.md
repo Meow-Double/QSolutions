@@ -3,9 +3,10 @@
 На сайте присуствует анимация + адаптив
 
 <b>Технологии:</b>
-<span style="color:#238636">Html</span>
-<span style="color:#238636">Css</span>
-<span style="color:#238636">Js</span>
-<span style="color:#238636">Gsap - для анимации</span>
+
+<div><a href="#!" style="color:#238636">Html</a></div>
+<div><a href="#!" style="color:#238636">Css</a></div>
+<div><a href="#!" style="color:#238636">Js</a></div>
+<div><a href="#!" style="color:#238636">Gsap - для анимации</a></div>
 
 <a href="https://meow-double.github.io/QSolutions" style="text-decoration:underline">Предворительный просмотр сайта👈</a>
