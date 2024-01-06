@@ -2,11 +2,11 @@
 
 На сайте присуствует анимация + адаптив
 
-<b>Технологии:</b>
-<div>Html</div>
-<div>Css</div>
-<div>Js</div>
-<div>Gsap - для анимации</div>
+<strong>Технологии:</strong>
+Html
+Css
+Js
+Gsap - для анимации
 
 
 <a href="https://meow-double.github.io/QSolutions" style="text-decoration:underline">Предворительный просмотр сайта👈</a>
